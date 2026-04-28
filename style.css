@@ -19,8 +19,20 @@ body {
 }
 
 .app {
-   
-}
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 214px;
+    padding: 16px 17px;
+    
+    background-image: url(images/outer-frame-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+    }
 
 .title {
     /*text styling*/
