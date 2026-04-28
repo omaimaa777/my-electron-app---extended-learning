@@ -9,20 +9,25 @@
     box-sizing: border-box;
 }
 
+html,
 body {
     margin: 0;
-    width: 100vw;
-    height:100vh;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
     background-image: url(images/outer-frame-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
     user-select: none;
-    -webkit-app-region:drag;
+    -webkit-app-region: drag;
 }
 
 .app {
-   display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -34,7 +39,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    }
+}
 
 .title {
     /*text styling*/
