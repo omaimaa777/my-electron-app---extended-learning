@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Pixelify Sans";
+    src: url(font/PixelifySans-Regular.ttf);
+}
 * {
     box-sizing: border-box;
 }
@@ -16,6 +20,30 @@ body {
 
 .app {
    
+}
+
+.title {
+    /*text styling*/
+    color: var(--white, #FFF);
+    font-family: "Pixelify Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    /*titlebox*/
+    display: flex;
+    width: 157px;
+    padding: 4px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    border: 1px solid #C079ff;
+    background: rgba(210,164,255,0.40);
+    aspect-ratio: 157px / 27px;
+
+
 }
 
 button,
