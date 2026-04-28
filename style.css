@@ -62,6 +62,40 @@ body {
 
 }
 
+#day {
+    color: #FFF;
+    text-align: center;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: var(--mid-purple, #B58CD9);
+    font-family: Pixeboy;
+    font-size: 136px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 7.2px;
+
+    display: flex;
+    width: 180px;
+    height: 71px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#month {
+    color: #FFF;
+    text-align: center;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #B58CD9;
+    font-family: Pixeboy;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 4.8px;
+
+    width: 130px;
+}
+
 button,
 input,
 textarea,
