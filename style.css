@@ -6,8 +6,7 @@ body {
     margin: 0;
     width: 100vw;
     height:100vh;
-
-   
+    background-image: url(images/outer-frame-bg.png);
     user-select: none;
     -webkit-app-region:drag;
 }
