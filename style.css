@@ -1,6 +1,9 @@
 @font-face {
     font-family: "Pixelify Sans";
     src: url(font/PixelifySans-Regular.ttf);
+}
+
+@font-face {
     font-family: "Pixeboy";
     src: url(font/Pixeboy.ttf);
 }
@@ -42,28 +45,25 @@ body {
 }
 
 .title {
-    /*text styling*/
-    color: var(--white, #FFF);
+    color: #FFFFFF;
     font-family: "Pixelify Sans";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-align: center;
-    
-    /*titlebox*/
+
     display: flex;
     width: 157px;
     padding: 4px 10px;
     justify-content: center;
     align-items: center;
     gap: 10px;
+
     border-radius: 100px;
-    border: 1px solid #C079ff;
-    background: rgba(210,164,255,0.40);
-    aspect-ratio: 157px / 27px;
-
-
+    border: 1px solid #9FD3B3;
+    background: rgba(253, 226, 236, 0.4);
+    aspect-ratio: 157 / 27;
 }
 
 #calendar {
@@ -82,11 +82,11 @@ body {
 }
 
 #day {
-    color: #FFF;
+    color: #FFFFFF;
     text-align: center;
     -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: var(--mid-purple, #B58CD9);
-    font-family: Pixeboy;
+    -webkit-text-stroke-color: #9FD3B3;
+    font-family: "Pixeboy";
     font-size: 136px;
     font-style: normal;
     font-weight: 400;
@@ -101,11 +101,11 @@ body {
 }
 
 #month {
-    color: #FFF;
+    color: #FFFFFF;
     text-align: center;
     -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: #B58CD9;
-    font-family: Pixeboy;
+    -webkit-text-stroke-color: #9FD3B3;
+    font-family: "Pixeboy";
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -119,7 +119,6 @@ button,
 input,
 textarea,
 select {
-      -webkit-app-region:drag;
-      cursor:pointer;
+    -webkit-app-region: drag;
+    cursor: pointer;
 }
-
